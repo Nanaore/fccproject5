@@ -1,0 +1,175 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    margin:0;
+  }
+  nav{
+    display:flex;
+    justify-content:flex-end;
+    width:99vw;
+    top:0;
+    left:0;
+    position:fixed;
+    background:#F8EA8C;
+    
+  }
+  
+  nav a{
+    
+    font-family:cursive;
+    text-decoration:none;
+   color:#4C5270;
+    padding:1em;
+    margin-left:1em;
+  }
+  
+  nav a:hover{
+    background:rgb(8,14,44);
+    color:#F8EA8C;
+  }
+  #welcome-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+   align-items:center;
+    height:100vh;
+    background:#A4E8E0;
+    color:#4C5270;
+    line-height:3em;
+  }
+  
+  h1{
+    font-size:3em;
+    
+  }
+  
+  i{
+    color:#E1C340;
+    font-size:0.5em;
+    font-weight:300;
+  }
+  
+  #main{
+     background:#4CD7D0;
+    padding-top:2em;
+    padding-bottom:2em;
+    color: rgb(37,44,88);
+    text-align:center;
+    width:99vw;
+  }
+  
+  header{
+    font-size:3em;
+    font-weight:700;
+  }
+  
+  #projects{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+  
+  }
+  
+  
+  .project-tile{
+    background:rgb(8,14,44);
+    margin:2em;
+    width: 24em;
+    height: 24em;
+  }
+  
+  .project-image{
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 24em;
+    height:20em;
+    margin-bottom:1em;
+  }
+  .description{
+    text-decoration:none;
+    color:#4C5270;
+    font-size:1.5em;
+  }
+  .description:hover{
+    color:#4CD7D0;
+  }
+  
+  
+  footer{
+    text-align:center;
+    padding:2em;
+    background:#F8EA8C;
+  }
+  
+  footer a{
+    font-family:cursive;
+    color:#4C5270;
+    text-decoration:none;
+  }
+
+  footer a:hover{
+    color:#4CD7D0;
+    
+  }
+  
+  @media (max-width:800px){
+    #projects{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+       align-items:center;
+      
+    }
+
+    h1{
+      font-size:2em;
+      
+    }
+    
+    i{
+      color:#E1C340;
+      font-size:0.4em;
+      font-weight:200;
+    }
+
+    header{
+      font-size:2em;
+      font-weight:700;
+    }
+
+    .project-tile{
+      background:rgb(8,14,44);
+      margin:2em;
+      width: 20em;
+      height: 20em;
+    
+    }
+    
+    
+    
+    .project-image{
+      background-size:cover;
+      background-repeat: no-repeat;
+      width: 20em;
+      height:16em;
+      margin-bottom:1em;
+    }
+
+    .description{
+      text-decoration:none;
+      color:#4C5270;
+      font-size:1.2em;
+    }
+
+  }
+
+    
+
+   
+  
+  
+  
+  
+  
